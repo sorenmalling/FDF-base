@@ -1,0 +1,10 @@
+	# Standard page setup
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fdf_base/Resources/Private/TypoScript/Page.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fdf_base/Resources/Private/TypoScript/Config.ts">
+
+	# Menus
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fdf_base/Resources/Private/TypoScript/Menu/Main.ts">
+
+	# Shared TypoScript Objects
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fdf_base/Resources/Private/TypoScript/Shared/Footer.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fdf_base/Resources/Private/TypoScript/Shared/Topnavigation.ts">
