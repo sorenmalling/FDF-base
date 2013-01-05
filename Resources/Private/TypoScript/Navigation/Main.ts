@@ -1,5 +1,5 @@
-lib.menu.main = HMENU
-lib.menu.main {
+lib.navigation.main = HMENU
+lib.navigation.main {
 	1 = TMENU
 	1 {
 		wrap = <ol>|</ol>

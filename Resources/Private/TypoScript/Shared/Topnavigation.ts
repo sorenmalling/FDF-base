@@ -66,12 +66,22 @@ lib.shared.topnavigation {
 		}
 	}
 		# Mit FDF.DK
-	30 = TEXT
+	30 = COA
 	30 {
 		wrap = <ol class="user"><li>|</li></ol>
-		value = Mit FDF.DK
-		typolink {
-			parameter = http://mit.FDF.dk/
+		10 = TEXT
+		10 {
+		#	wrap = <ol class="user"><li>|</li></ol>
+			value = Mit FDF.DK
+			typolink {
+				parameter = http://mit.FDF.dk/
+			}
+		}
+		20 = COA
+		20 {
+			wrap = <ul class="user-menu"><li>|</li></ul>
+			10 < plugin.tx_felogin_pi1
+		#	value = bruger menu
 		}
 	}
 }
