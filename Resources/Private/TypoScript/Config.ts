@@ -1,4 +1,5 @@
 config {
+	admPanel = 1
 	absRefPrefix = /
 	uniqueLinkVars = 1
 	metaCharset = utf-8
@@ -15,6 +16,8 @@ config {
 	doctype = html5
 	xmlprologue = none
 	removeDefaultJS = 1
+	removeDefaultCss = 0
+	inlineStyle2TempFile = 1
 	meaningfulTempFilePrefix = 1
 	disablePrefixComment = 1
 		# Compress and concatenate CSS/JS

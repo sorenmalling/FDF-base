@@ -60,8 +60,9 @@ lib.shared.topnavigation {
 			}
 		}
 			# Søgefelt
-		60 < temp.item
+		60 = TEXT
 		60 {
+			wrap = <li class="search">|</li>
 			value = <input type="search" placeholder="Søg">
 		}
 	}
@@ -71,7 +72,6 @@ lib.shared.topnavigation {
 		wrap = <ol class="user"><li>|</li></ol>
 		10 = TEXT
 		10 {
-		#	wrap = <ol class="user"><li>|</li></ol>
 			value = Mit FDF.DK
 			typolink {
 				parameter = http://mit.FDF.dk/
@@ -81,7 +81,7 @@ lib.shared.topnavigation {
 		20 {
 			wrap = <ul class="user-menu"><li>|</li></ul>
 			10 < plugin.tx_felogin_pi1
-		#	value = bruger menu
 		}
+		20 >
 	}
 }
