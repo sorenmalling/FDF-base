@@ -1,5 +1,12 @@
 lib.navigation.main = HMENU
 lib.navigation.main {
+	stdWrap {
+		cache {
+			key = fdf_base_navigation_main
+			lifetime = 0
+			tags = navigation
+		}
+	}
 	1 = TMENU
 	1 {
 		wrap = <ol>|</ol>

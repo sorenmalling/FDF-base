@@ -3,6 +3,13 @@ temp.item.wrap = <li>|</li>
 
 lib.shared.topnavigation = COA
 lib.shared.topnavigation {
+	stdWrap {
+		cache {
+			key = fdf_base_shared_topnavigation
+			lifetime = 0
+			tag = topnavigation
+		}
+	}
 		# FDF Logo
 	10 = IMAGE
 	10 {
