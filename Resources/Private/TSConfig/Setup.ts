@@ -56,4 +56,10 @@ TCEFORM {
 			removeItems = header,table,bullets,div,menu,uploads,search,multimedia
 		}
 	}
+	sys_template {
+		nextLevel.disabled = 1
+		includeStaticAfterBasedOn.disabled = 1
+		basedOn.disabled = 1
+		static_file_mode.disabled = 1
+	}
 }
