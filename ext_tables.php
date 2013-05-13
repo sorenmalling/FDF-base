@@ -14,10 +14,10 @@ $GLOBALS['TCA']['sys_template']['columns']['constants']['config']['type'] = 'pas
 
 $GLOBALS['TCA']['sys_template']['columns']['include_static_file']['config']['items'] = array (
 	array (
-		'Leder.FDF.dk', 'EXT:fdf_leder/Configuration/TypoScript/Base/'
+		'Leder.FDF.dk', 'EXT:fdf_leder/Configuration/TypoScript/Page/'
 	),
 	array (
-		'www.FDF.dk', 'EXT:fdf_leder/Configuration/TypoScript/Base/'
+		'www.FDF.dk', 'EXT:fdf_fdfdk/Configuration/TypoScript/Page/'
 	)
 );
 $GLOBALS['TCA']['sys_template']['columns']['include_static_file']['config']['maxitems'] = 1;
